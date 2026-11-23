@@ -1,0 +1,29 @@
+{
+  "name": "native-multimodal",
+  "displayName": "Native Multimodal",
+  "version": "1.0.0",
+  "description": "Enable Gemini models in Google Antigravity to natively perceive video (continuous frames + audio track), audio, images, and PDFs via read_file — preventing reflexive ffmpeg frame extraction and whisper transcription, with automatic container/codec bridging and smart chapter slicing.",
+  "author": {
+    "name": "Creep crow",
+    "url": "https://github.com/creep-crow"
+  },
+  "homepage": "https://github.com/creep-crow/antigravity-native-multimodal",
+  "repository": "https://github.com/creep-crow/antigravity-native-multimodal",
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "gemini",
+    "multimodal",
+    "video",
+    "audio",
+    "pdf",
+    "hooks",
+    "plugin"
+  ],
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "请直接用 read_file 原生读取这个视频，按时间线梳理画面变化和语音/音效内容",
+    "请直接用 read_file 原生聆听这段音频，总结说话人语气、关键观点与背景声音",
+    "请直接用 read_file 原生查看这张图片或长文档，提取细节文字与布局结构"
+  ]
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="nm-frame-grad" x1="16" y1="22" x2="104" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="nm-play-grad" x1="48" y1="37" x2="80" y2="73" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#DB2777"/>
+    </linearGradient>
+    <linearGradient id="nm-wave-grad" x1="30" y1="78" x2="90" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Back stacked image frame corner (image modality) -->
+  <path
+    d="M34 15H95C103.837 15 111 22.163 111 31V91"
+    stroke="#0891B2"
+    stroke-width="5.5"
+    stroke-linecap="round"
+  />
+
+  <!-- Front image frame -->
+  <rect
+    x="16"
+    y="22"
+    width="88"
+    height="88"
+    rx="18"
+    fill="#6366F1"
+    fill-opacity="0.08"
+    stroke="url(#nm-frame-grad)"
+    stroke-width="6"
+  />
+
+  <!-- Photo sun dot (image cue) -->
+  <circle cx="34" cy="40" r="5.5" fill="#F59E0B"/>
+
+  <!-- Video play triangle (video modality) -->
+  <path
+    d="M50 39L79 55.5L50 72Z"
+    fill="url(#nm-play-grad)"
+    stroke="url(#nm-play-grad)"
+    stroke-width="4"
+    stroke-linejoin="round"
+  />
+
+  <!-- Audio waveform bars (audio modality) -->
+  <g fill="url(#nm-wave-grad)">
+    <rect x="31" y="84" width="6" height="10" rx="3"/>
+    <rect x="44" y="80" width="6" height="18" rx="3"/>
+    <rect x="57" y="78" width="6" height="22" rx="3"/>
+    <rect x="70" y="81" width="6" height="16" rx="3"/>
+    <rect x="83" y="84" width="6" height="10" rx="3"/>
+  </g>
+</svg>
